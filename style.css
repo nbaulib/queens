@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+	font-family: 'px_sans';
+	src: url(fonts/px_sans_nouveaux.ttf) format('truetype');
+	}
+
+body {
+  background-color: #3C474B;
+/*   max-width: 99%; */
+}
+
+h1{
+  color: yellow;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vh;
+}
+
+h3, h2, p, a, button {
+  font-family: 'px_sans', sans-serif;
+  color: white;
+}
+
+.yellow{
+  color: yellow;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+.footer {
+  margin-top: 15vh;
+  font-family: 'Press Start 2P', cursive;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
