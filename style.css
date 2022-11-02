@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 body {
   background-color: #3C474B;
@@ -7,13 +7,13 @@ body {
 
 h1{
   color: yellow;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Work Sans', sans-serif;
   font-size: 5vh;
 }
 
 .footer {
   margin-top: 15vh;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Work Sans', sans-serif;
 
   position: absolute;
   left: 0;
