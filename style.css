@@ -1,22 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
 body {
-  background-color: #3C474B;
+  background-color: #e9ecef;
+  height: 99%;
 /*   max-width: 99%; */
 }
 
 h1{
-  color: yellow;
+/*   color: yellow; */
   font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
   font-size: 5vh;
 }
 
-.footer {
-  margin-top: 15vh;
+h2{
   font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 3vh;
+}
 
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2vh;
+}
+
+.tBox {
+  background-color: rgba(256, 256, 256, 0.9);
+  width: 350px;
+  border-radius: 15px;
+  margin: 1rem;
+  padding-top: 30px;
+  padding-bottom:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ a:hover {
+  cursor: pointer;
+  background-color: #dbd6e5;
+}
+
+a:link, a:visited {
+  color: #212528;
+  text-decoration: none;
+}
+
+
+.footer {
   position: absolute;
-  left: 0;
   bottom: 0;
-  width: 100%;
+/*   width: 100%; */
 }
