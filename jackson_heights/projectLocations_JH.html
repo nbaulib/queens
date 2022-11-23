@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bd2c176ce4f8078017b89dcbe0da5c63 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bd2c176ce4f8078017b89dcbe0da5c63" ></div>
+        
+</body>
+<script>    
+    
+            var map_bd2c176ce4f8078017b89dcbe0da5c63 = L.map(
+                "map_bd2c176ce4f8078017b89dcbe0da5c63",
+                {
+                    center: [40.747525, -73.893776],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_edec4d31419b1e67151719a5f4cd1c1a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bd2c176ce4f8078017b89dcbe0da5c63);
+        
+    
+            var marker_42cb5c52c39a1fa84c73186f54f95b42 = L.marker(
+                [40.751099, -73.872154],
+                {}
+            ).addTo(map_bd2c176ce4f8078017b89dcbe0da5c63);
+        
+    
+        var popup_250bf011a7a5592e4ff3c7af18367315 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3fb510d96face12c495793f1b0e3882 = $(`<div id="html_e3fb510d96face12c495793f1b0e3882" style="width: 100.0%; height: 100.0%;">95-01 37TH AVENUE APARTMENTS</div>`)[0];
+            popup_250bf011a7a5592e4ff3c7af18367315.setContent(html_e3fb510d96face12c495793f1b0e3882);
+        
+
+        marker_42cb5c52c39a1fa84c73186f54f95b42.bindPopup(popup_250bf011a7a5592e4ff3c7af18367315)
+        ;
+
+        
+    
+    
+            var marker_6a6fb5dfad40167415dc141eb12ce9a6 = L.marker(
+                [40.747525, -73.893776],
+                {}
+            ).addTo(map_bd2c176ce4f8078017b89dcbe0da5c63);
+        
+    
+        var popup_12bc82f4955cf3126f17d21258fc1a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c2a55e30ba2e4e56350f6d16837c099 = $(`<div id="html_1c2a55e30ba2e4e56350f6d16837c099" style="width: 100.0%; height: 100.0%;">ROOSEVELT PARC APARTMENTS</div>`)[0];
+            popup_12bc82f4955cf3126f17d21258fc1a29.setContent(html_1c2a55e30ba2e4e56350f6d16837c099);
+        
+
+        marker_6a6fb5dfad40167415dc141eb12ce9a6.bindPopup(popup_12bc82f4955cf3126f17d21258fc1a29)
+        ;
+
+        
+    
+    
+            var marker_7378b51d527ae6f9e87c8c62e3cf7b30 = L.marker(
+                [40.749304, -73.885165],
+                {}
+            ).addTo(map_bd2c176ce4f8078017b89dcbe0da5c63);
+        
+    
+        var popup_94363e90b324b7a6329295ae40116678 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ddb50df08adbe3ac29bc32420a8a758 = $(`<div id="html_0ddb50df08adbe3ac29bc32420a8a758" style="width: 100.0%; height: 100.0%;">37-49 81ST STREET CONDOMINIUMS</div>`)[0];
+            popup_94363e90b324b7a6329295ae40116678.setContent(html_0ddb50df08adbe3ac29bc32420a8a758);
+        
+
+        marker_7378b51d527ae6f9e87c8c62e3cf7b30.bindPopup(popup_94363e90b324b7a6329295ae40116678)
+        ;
+
+        
+    
+</script>
