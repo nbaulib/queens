@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6820861b8f814ae959bcf83a2600b36c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6820861b8f814ae959bcf83a2600b36c" ></div>
+        
+</body>
+<script>    
+    
+            var map_6820861b8f814ae959bcf83a2600b36c = L.map(
+                "map_6820861b8f814ae959bcf83a2600b36c",
+                {
+                    center: [40.747525, -73.893776],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5ccf916533a3cf822bdc9e31a39601e5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6820861b8f814ae959bcf83a2600b36c);
+        
+    
+            var marker_a223b67297caca359de4c1d22e19577c = L.marker(
+                [40.762772, -73.794213],
+                {}
+            ).addTo(map_6820861b8f814ae959bcf83a2600b36c);
+        
+    
+        var popup_0e109ed949ab499c110d3de10afcea60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6b9c5fd9fdf763f151f634b9735b01a = $(`<div id="html_b6b9c5fd9fdf763f151f634b9735b01a" style="width: 100.0%; height: 100.0%;">36-23 172ND STREET APARTMENTS</div>`)[0];
+            popup_0e109ed949ab499c110d3de10afcea60.setContent(html_b6b9c5fd9fdf763f151f634b9735b01a);
+        
+
+        marker_a223b67297caca359de4c1d22e19577c.bindPopup(popup_0e109ed949ab499c110d3de10afcea60)
+        ;
+
+        
+    
+    
+            var marker_ddd66dd03500e9ef7a032f4d832f2f59 = L.marker(
+                [40.764711, -73.822928],
+                {}
+            ).addTo(map_6820861b8f814ae959bcf83a2600b36c);
+        
+    
+        var popup_0bd73376cc9927a7c38e2a9f29a47765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fbeff8b757630be2de9014a57700a12 = $(`<div id="html_0fbeff8b757630be2de9014a57700a12" style="width: 100.0%; height: 100.0%;">THE URBAN</div>`)[0];
+            popup_0bd73376cc9927a7c38e2a9f29a47765.setContent(html_0fbeff8b757630be2de9014a57700a12);
+        
+
+        marker_ddd66dd03500e9ef7a032f4d832f2f59.bindPopup(popup_0bd73376cc9927a7c38e2a9f29a47765)
+        ;
+
+        
+    
+    
+            var marker_1519ee13ecd94d3265c417e6c2cabc56 = L.marker(
+                [40.761491, -73.798],
+                {}
+            ).addTo(map_6820861b8f814ae959bcf83a2600b36c);
+        
+    
+        var popup_468bf17758d5c7a61ea59ce1306a9dbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70851a8d36bff70337b6592628914829 = $(`<div id="html_70851a8d36bff70337b6592628914829" style="width: 100.0%; height: 100.0%;">168-05 DEPOT ROAD</div>`)[0];
+            popup_468bf17758d5c7a61ea59ce1306a9dbd.setContent(html_70851a8d36bff70337b6592628914829);
+        
+
+        marker_1519ee13ecd94d3265c417e6c2cabc56.bindPopup(popup_468bf17758d5c7a61ea59ce1306a9dbd)
+        ;
+
+        
+    
+    
+            var marker_1cb8156d85a57c1811df8884fcdf8624 = L.marker(
+                [40.756088, -73.823781],
+                {}
+            ).addTo(map_6820861b8f814ae959bcf83a2600b36c);
+        
+    
+        var popup_887b1787c0fce6ad7df53e20fc4c4213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af6aa4c13bd619275ab61bc92657c11c = $(`<div id="html_af6aa4c13bd619275ab61bc92657c11c" style="width: 100.0%; height: 100.0%;">140-26 FRANKLIN AVENUE HPO FY17</div>`)[0];
+            popup_887b1787c0fce6ad7df53e20fc4c4213.setContent(html_af6aa4c13bd619275ab61bc92657c11c);
+        
+
+        marker_1cb8156d85a57c1811df8884fcdf8624.bindPopup(popup_887b1787c0fce6ad7df53e20fc4c4213)
+        ;
+
+        
+    
+    
+            var marker_3762f9c8763cc0e4f47b8d0c38996142 = L.marker(
+                [40.757855, -73.830252],
+                {}
+            ).addTo(map_6820861b8f814ae959bcf83a2600b36c);
+        
+    
+        var popup_5c9c0064e0ca721991138ab01560f204 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84486b47bd2cc680cfe206769e2fc383 = $(`<div id="html_84486b47bd2cc680cfe206769e2fc383" style="width: 100.0%; height: 100.0%;">ONE FLUSHING</div>`)[0];
+            popup_5c9c0064e0ca721991138ab01560f204.setContent(html_84486b47bd2cc680cfe206769e2fc383);
+        
+
+        marker_3762f9c8763cc0e4f47b8d0c38996142.bindPopup(popup_5c9c0064e0ca721991138ab01560f204)
+        ;
+
+        
+    
+</script>
