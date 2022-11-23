@@ -25,11 +25,12 @@ header{
 }
 
 .astoria {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.nycgo.com/image/fetch/q_auto:eco,w_1920/https://www.nycgo.com/images/uploads/1Astoria/Astoria-Photo-Will-Steacy-NYC-and-Company-26.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.nycgo.com/image/fetch/q_auto:eco,w_1920/https://www.nycgo.com/images/uploads/1Astoria/Astoria-Photo-Will-Steacy-NYC-and-Company-26.jpg');
 }
 
 .flushing{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://thumbs.dreamstime.com/b/variety-shops-restaurants-signs-along-street-downtown-flushing-queens-new-york-city-taken-march-179465954.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://thumbs.dreamstime.com/b/variety-shops-restaurants-signs-along-street-downtown-flushing-queens-new-york-city-taken-march-179465954.jpg');
+  background-position: 0%78%;
 }
 
 .jackson{  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static01.nyt.com/images/2015/05/24/realestate/20150524LIVING-slide-JKJZ/20150524LIVING-slide-JKJZ-superJumbo.jpg');
@@ -65,6 +66,7 @@ p{
 .tBox {
   background-color: rgba(256, 256, 256, 0.85);
   width: 21em;
+  height: 14rem;
   border-radius: 15px;
   margin: 1.3em;
   padding-top: 1.875em;
