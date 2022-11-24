@@ -34,6 +34,7 @@ header{
 }
 
 .jackson{  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static01.nyt.com/images/2015/05/24/realestate/20150524LIVING-slide-JKJZ/20150524LIVING-slide-JKJZ-superJumbo.jpg');
+background-position: 0%25%
 }
 
 .elmhurst{ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.tripsavvy.com/thmb/GUBPXaO9VK_jXAsfdZBE0APFCDk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Bwy_Elmhurst_Chinatown_jeh-5a47f635b39d03003717b8fc.jpg');
