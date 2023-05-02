@@ -1,1 +1,2 @@
-# MHC Queens 1 - Affordable Housing Project
+# MHC Queens - Affordable Housing Project
+https://nbaulib.github.io/queens/
