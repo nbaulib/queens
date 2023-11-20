@@ -3,7 +3,7 @@ https://nbaulib.github.io/queens/
 
 ## Overview
 
-This project explores affordable housing in four Queens neighborhoods: Astoria, Elmhurst, Flushing, and Jackson Heights. The investigation delves into demographic data, ranks neighborhoods based on various factors, and analyzes the number of affordable housing units using the ['Affordable Housing Production by Building'](https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr) dataset.
+This project explores affordable housing in four Queens neighborhoods: Astoria, Elmhurst, Flushing, and Jackson Heights. The investigation delves into demographic data, ranks neighborhoods based on various factors, and analyzes the number of affordable housing units using the [Affordable Housing Production by Building](https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr) dataset.
 
 ## Project Contributors
 
