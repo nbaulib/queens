@@ -19,4 +19,4 @@ The project involves:
 
 2. **Data Exploration:** Analyzing the [Affordable Housing Production by Building](https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr) dataset to report on the number of buildings, units, and projects in each neighborhood.
 
-3. **Website Development:** Creating a user-friendly and informative website to present the project findings. The website uses HTML CSS, and Bootstraps to ensure effective navigation and visualization of the gathered data.
+3. **Website Development:** Creating a user-friendly and informative website to present the project findings. The website uses HTML, CSS, and Bootstraps to ensure effective navigation and visualization of the gathered data.
