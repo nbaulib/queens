@@ -27,6 +27,6 @@ This project explores affordable housing in four Queens neighborhoods: Astoria, 
 ## Project Execution
 
 The project involves:
-1. **Demographic Analysis:** Utilizing data from the [Social Explorer](socialexplorer.com) to understand the population characteristics of each neighborhood.
+1. **Demographic Analysis:** Utilizing data from the [Social Explorer](https://www.socialexplorer.com/profiles/essential-report/index.html) to understand the population characteristics of each neighborhood.
 
 2. **Data Exploration:** Analyzing the 'Affordable Housing Production by Building' dataset to report on the number of buildings, units, and projects in each neighborhood.
