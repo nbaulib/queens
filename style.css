@@ -141,8 +141,9 @@ th, td {
   }
   .tBox{
     width: 89%;
+    height: 12rem;
   }
-  lBox{
+  .lBox{
     font-size: 1vh;
   }
   .dMap{
