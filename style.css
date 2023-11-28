@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
+html {
+  /* root size */
+  font-size: 18px; 
+} 
+
 body {
   background-color: #e9ecef;
   height: 100%;
@@ -45,13 +50,13 @@ header {
 h1 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
-  font-size: 5vh;
+  font-size: 2rem;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
-  font-size: 3vh;
+  font-size: 1.2rem;
 }
 
 h3 {  font-family: 'Work Sans', sans-serif;
@@ -61,19 +66,21 @@ h3 {  font-family: 'Work Sans', sans-serif;
 
 p {
   font-family: 'Work Sans', sans-serif;
-  font-size: 2.1vh;
+  font-size: 18px;
+}
+
+.pic-resize {
+  width: 27vw;
 }
 
 .tBox {
   background-color: rgba(256, 256, 256, 0.85);
-  width: 21em;
-  height: 14rem;
-  border-radius: 15px;
-  margin: 1.3em;
-  padding-top: 1.875em;
-  padding-bottom: 1.25em;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+  width: 380px;
+  width: calc(250px + 10vw);
+  height: calc(330px - 9vw);
+  border-radius: 12px;
+  margin: 1.25em;
+  padding: 1.25em;
 }
 
 .lBox {
@@ -105,7 +112,7 @@ table {
   width: 90%;
 }
 
-.over{
+.over {
   overflow-x:auto;
 }
 
@@ -119,22 +126,22 @@ th, td {
 }
 
 /*  phone css */
-@media (min-width: 520px) {
-  .navbar{
+@media (min-width: 770px) {
+  .navbar {
     display: none !important;
   }
+
   .down {
-  margin-top: 12rem;
-}
-  
+    margin-top: 12rem;
+  }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 770px) {
   h1{
     font-size: 4vh;
   }
-  .lead{
-    font-size: 2.1vh;
+  p{
+    font-size: 15px;
   }
   .col{
     flex-direction: column !important;
@@ -145,6 +152,9 @@ th, td {
   }
   .lBox{
     font-size: 1vh;
+  }
+  table {
+    font-size: 15px;
   }
   .dMap{
     width: 85vw;
