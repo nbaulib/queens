@@ -125,8 +125,10 @@ th, td {
   display: none;
 }
 
-/*  phone css */
-@media (min-width: 770px) {
+/*  responsive */
+
+
+@media (min-width: 680px) {
   .navbar {
     display: none !important;
   }
@@ -136,7 +138,8 @@ th, td {
   }
 }
 
-@media (max-width: 770px) {
+
+@media (max-width: 680px) {
   h1{
     font-size: 4vh;
   }
