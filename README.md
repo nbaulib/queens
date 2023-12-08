@@ -8,8 +8,8 @@ This project explores affordable housing in four Queens neighborhoods: Astoria, 
 ## Project Contributors
 
 - Hillary Pham
-- Oliver Tangney
 - Nico Bautista-Libreros
+- Oliver Tangney
 - Tesneem Essa
 
 ## Project Execution
