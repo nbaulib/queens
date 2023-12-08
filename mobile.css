@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+html {
+  /* root size */
+  font-size: 16px; 
+} 
+
+body {
+  background-color: #e9ecef;
+  height: 100%;
+}
+
+header {
+  height: 18rem;
+  width: 100%;
+  background-color: #072128;
+  background-size: cover;
+}
+
+.home {
+  background-size: cover;
+  /* url('https://images.unsplash.com/photo-1639428532363-8e98ad95d898?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('home/background.avif');
+  background-position: 0% 30%;
+}
+
+.astoria {
+  /* url('https://images.nycgo.com/image/fetch/q_auto:eco,w_1920/https://www.nycgo.com/images/uploads/1Astoria/Astoria-Photo-Will-Steacy-NYC-and-Company-26.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('astoria/astoria-back.jpg');
+}
+
+.elmhurst { 
+  /* url('https://www.tripsavvy.com/thmb/GUBPXaO9VK_jXAsfdZBE0APFCDk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Bwy_Elmhurst_Chinatown_jeh-5a47f635b39d03003717b8fc.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('elmhurst/elmhurst-back.jpg');
+  background-position: 0%50%;
+}
+
+.flushing {
+  /* url('https://thumbs.dreamstime.com/b/variety-shops-restaurants-signs-along-street-downtown-flushing-queens-new-york-city-taken-march-179465954.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('flushing/flushing-back.webp');
+  background-position: 0%78%;
+}
+
+.jackson {
+  /* url('https://static01.nyt.com/images/2015/05/24/realestate/20150524LIVING-slide-JKJZ/20150524LIVING-slide-JKJZ-superJumbo.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('jackson_heights/jackson-back-min.jpg');
+  background-position: 0%25%;
+}
+
+h1, h2, h3, p {
+  font-family: 'Work Sans', sans-serif;  
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* h3 {
+  font-weight: 500;
+  font-size: 1.5vh;
+} */
+
+.col {
+  flex-direction: column;
+}
+
+.pic-size {
+  max-width: 90%;
+  margin-bottom: 15px;
+}
+
+.tBox {
+  background-color: rgba(256, 256, 256, 0.85);
+  width: 95%;
+  border-radius: 10px;
+  margin: .5em;
+  padding: 1em;
+}
+
+.lBox {
+  background-color: rgba(256, 256, 256, 0.9);
+  width: 10em;
+  border-radius: 15px;
+  margin: .5em;
+  text-align: center;
+  padding-top: .7em;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: #b4b2b4;
+}
+
+a:link, a:visited {
+  color: #212528;
+  text-decoration: none;
+}
+
+table, td, th {  
+  border: 2px solid #b7b8ba;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.over {
+  overflow-x: auto;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+/*  responsive */
+
+@media (min-width: 768px) {
+  html {
+    /* root size */
+    font-size: 18px; 
+  } 
+
+  .navbar {
+    display: none !important;
+  }
+
+  .down {
+    margin-top: 12rem;
+  }
+
+  .tBox {
+    max-width: 390px;
+    min-height: 206px;
+    border-radius: 12px;
+    margin: 1.25em;
+    padding: 1.25em;
+  }
+}
+
+/* phone */
+/* @media (max-width: 768px) {
+  .col {
+    flex-direction: column !important;
+  }
+
+  .lBox{
+    font-size: 1vh;
+  }
+  
+}  */
+/* 174 */
